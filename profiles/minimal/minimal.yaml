@@ -1,12 +1,7 @@
-# The minimal profile will install just the core control plane
 apiVersion: install.istio.io/v1alpha1
 kind: IstioOperator
 metadata:
-    namespace: istio-system
+  namespace: istio-system
+  name: istio-minimal
 spec:
-  components:
-    ingressGateways:
-
-  addonComponents:
-    prometheus:
-      enabled: false
+  profile: minimal
