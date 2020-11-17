@@ -1,1 +1,1 @@
-# istio-operator
+# istio-operator-kustomize
